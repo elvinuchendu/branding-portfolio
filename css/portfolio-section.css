@@ -31,7 +31,7 @@
 #portfolio-section .portfolio-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 150px 150px 150px 150px 150px;
     grid-gap: 10px;
 }
 
@@ -54,39 +54,31 @@
     box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
 }
 
-#portfolio-section .portfolio-container .box.image1{
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
-}
-#portfolio-section .portfolio-container .box.image1 .image{
-    height: 100%;
-    width: 100%;
-    background: url('https://cdn.dribbble.com/users/1963775/screenshots/16897644/media/a1b1251a2e3bf3426d10fe9a5cde7928.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
-}
-
-#portfolio-section .portfolio-container .box.image1 .hover-bg{
+#portfolio-section .portfolio-container .box .hover-bg{
     padding: 10px 20px;
     background: rgba(255,255,255,0);
     transition: all .4s ease-in-out;
+    height: 100%;
+    width: 100%;
     }
     
-#portfolio-section .portfolio-container .box:hover .hover-bg{
+#portfolio-section .portfolio-container .box:hover .image .hover-bg{
     padding: 10px 20px;
-    background: rgba(255,255,255,.4);
+    background: rgba(255,53,53,.8);
     }
-    
 
-#portfolio-section .portfolio-container .box.image1 .image .title .text{
+#portfolio-section .portfolio-container .box .image .hover-bg .title{
+    height: 100%;
+    width: 100%;
+}
+        
+
+#portfolio-section .portfolio-container .box .image .hover-bg .title .text{
     background: black;
     border-radius: 5px;
     padding: 10px 20px;
     transform: translate3d(0, 400px, 0);
-    transition: all .5s ease-in-out .4s;
+    transition: all .5s ease-in-out;
     opacity: 0;
     }
     
@@ -98,4 +90,96 @@
     transition: transform;
     opacity: 1;
 }
-    
+
+/* Box Locations */
+
+#portfolio-section .portfolio-container .box.image1{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+#portfolio-section .portfolio-container .box.image1 .image{
+    height: 100%;
+    width: 100%;
+    background: url('https://cdn.dribbble.com/users/1963775/screenshots/16897644/media/a1b1251a2e3bf3426d10fe9a5cde7928.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#portfolio-section .portfolio-container .box.image2{
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+}
+#portfolio-section .portfolio-container .box.image2 .image{
+    height: 100%;
+    width: 100%;
+    background: url('https://cdn.filestackcontent.com/m1SNmMORQK24ymTuPLp9');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#portfolio-section .portfolio-container .box.image3{
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+#portfolio-section .portfolio-container .box.image3 .image{
+    height: 100%;
+    width: 100%;
+    background: url('https://cdn.filestackcontent.com/I3G0J66YSh6naOWtDG1n');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#portfolio-section .portfolio-container .box.image4{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+#portfolio-section .portfolio-container .box.image4 .image{
+    height: 100%;
+    width: 100%;
+    background: url('https://cdn.filestackcontent.com/OlrXZI8FTAOOkiipwLuw');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#portfolio-section .portfolio-container .box.image5{
+    grid-column: 1 / 2;
+    grid-row: 4 / 6;
+}
+#portfolio-section .portfolio-container .box.image5 .image{
+    height: 100%;
+    width: 100%;
+    background: url('https://cdn.filestackcontent.com/lmvywG51TlyjzcyjZmJw');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#portfolio-section .portfolio-container .box.image6{
+    grid-column: 2 / 3;
+    grid-row: 3 / 6;
+}
+#portfolio-section .portfolio-container .box.image6 .image{
+    height: 100%;
+    width: 100%;
+    background: url('https://cdn.filestackcontent.com/jHXk8UwyRzOj0YYjEO9o');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#portfolio-section .portfolio-container .box.image7{
+    grid-column: 3 / 4;
+    grid-row: 4 / 6;
+}
+#portfolio-section .portfolio-container .box.image7 .image{
+    height: 100%;
+    width: 100%;
+    background: url('https://cdn.filestackcontent.com/UDZvKTK2fHzTPydtgEgw');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
