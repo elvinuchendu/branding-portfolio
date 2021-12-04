@@ -54,6 +54,10 @@
 
 #testimonials-section .testimonials-container .test-center .header .user-img{
     width: 150px;
+    height: 150px;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
 #testimonials-section .testimonials-container .test-center .header .user-img img{
@@ -120,8 +124,31 @@
 }
 
 #testimonials-section .testimonials-container .test-sides .person-img .hover-bg .name{
-    font-weight: 100;
-    font-size: 3rem;
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
     transition: all .2s ease-in-out .2s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transform: translate3d(0, 50px, 0);
+    opacity: 0;
+}
 
+#testimonials-section .testimonials-container .test-sides:hover .person-img .hover-bg .name{
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    transition: all .2s ease-in-out .1s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
 }
