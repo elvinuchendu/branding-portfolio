@@ -137,6 +137,11 @@
 
 /* Tablets */
 @media only screen and (max-width: 960px){
+#experience-section .large-title{
+    font-size: 3rem;
+    left: 0;
+}    
+    
 #experience-section .experience-container .large-icons{
     position: relative;
     top: -25px;
@@ -167,5 +172,23 @@
 
 /* Phones */
 @media only screen and (max-width: 767px){
+#experience-section .large-title{
+    font-size: 2.5rem;
+    left: 0;
+}    
+
+#experience-section .experience-container{
+    grid-template-columns: 1fr;
+}
+#experience-section .experience-container .large-icons{
+    display: none;
+    }
+#experience-section .experience-container .info .info-box h4{
+    font-size: 0.9rem;
+    }
+#experience-section .experience-container .info .info-box .date{
+    font-size: 0.8rem;
+    }
+    
     
 }
