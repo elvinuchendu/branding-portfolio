@@ -76,8 +76,8 @@ header .menu-btn{
 }
 
 .mobile-menu{
+    display:none;
     background: #fff;
-    display: flex;
     flex-direction: column; 
     padding: 40px 0;
     position: absolute;
@@ -126,5 +126,7 @@ header .menu-btn{
         font-size: 1.3rem;
     }
     
-    
+    .mobile-menu{
+        display: flex;
+        
 }
