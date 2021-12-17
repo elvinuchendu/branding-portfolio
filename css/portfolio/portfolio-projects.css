@@ -35,7 +35,23 @@
     background: black;
     text-decoration: none;
     text-transform: capitalize;
+    transition: all .3s ease-in-out;
 }
+
+#portfolio-projects .info .buttons .fas{
+    color: #ff5253;
+    margin-right: 10px;
+}
+
+
+#portfolio-projects .info .buttons a:hover{
+    background: #ff5253;
+}
+
+#portfolio-projects .info .buttons a:hover .fas{
+    color: #000;
+}
+
 
 #portfolio-projects p{
     display: inline-block;
@@ -73,5 +89,5 @@
 }
 
 #portfolio-projects .project-video{
-    
+    text-align: center;
 }
