@@ -81,18 +81,9 @@
     grid-gap: 20px;
     align-items: center;
     justify-content: center;
-    /* transition: all .3s ease-in-out; */
 }
 
-/* #portfolio-projects .technologies .icon-container:hover{
-    filter: grayscale(0);
-} */
 
-#portfolio-projects .technologies .icon-container img{
-}
-
-#portfolio-projects .technologies .icon-container img:hover{
-}
 
 
 #portfolio-projects .technologies .icons .icon img{
