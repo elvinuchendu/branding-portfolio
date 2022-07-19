@@ -556,8 +556,8 @@ body.dark .loader_line:after{
 	left: 0px;
 	right: 0px;
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-position:75% 100%; 
+	background-size: 40%;
+	background-position:80% 100%; 
 }
 .beny_tm_hero .background .overlay{
 	position: absolute;
