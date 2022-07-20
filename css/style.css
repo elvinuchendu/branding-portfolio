@@ -873,6 +873,7 @@ body.dark .loader_line:after{
 	width: 50%;
 	position: relative;
 	margin-right: 50px;
+	margin-top: -18rem;
 }
 .beny_tm_about .about_inner .left img{
 	opacity: 0;
