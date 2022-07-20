@@ -886,7 +886,7 @@ body.dark .loader_line:after{
 	right: 0px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position:center; 
+	/* background-position:center;  */
 	border-radius: 8px;
 }
 .beny_tm_about .about_inner .right{
