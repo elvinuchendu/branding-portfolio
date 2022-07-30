@@ -1579,6 +1579,41 @@ body.dark .loader_line:after{
 	top: 0px;
 	transition-delay: .05s;
 }
+.beny_tm_portfolio .info {
+    margin: auto;
+}
+
+.beny_tm_portfolio .info .buttons{
+    padding: 20px 0;
+	text-align: center;
+}
+
+.beny_tm_portfolio .info .buttons a{
+    display: inline-block;
+    padding: 10px 10px;
+	margin-top: 1rem;
+    border-radius: 8px;
+    color: white;
+    background: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+}
+
+.beny_tm_portfolio .info .buttons .fas{
+    color: #ff5253;
+    margin-right: 10px;
+}
+
+
+.beny_tm_portfolio .info .buttons a:hover{
+    background: #ff5253;
+}
+
+.beny_tm_portfolio .info .buttons a:hover .fas{
+    color: #000;
+}
+
 
 /*---------------------------------------------------*/
 /*	09) BENY TESTIMONIALS
