@@ -1020,7 +1020,13 @@ body.dark .loader_line:after{
 	height: auto;
 	clear: both;
 	float: left;
-	padding-top: 50px;
+	padding-top: 35px;
+	display: grid;
+    grid-template-columns: 110px 110px;
+    grid-row: auto auto;
+    grid-column-gap: 100px;
+    grid-row-gap: 20px;
+	justify-content: center;
 }
 .progress_inner{
 	width:100%;
@@ -1053,6 +1059,7 @@ body.dark .loader_line:after{
 .progress_inner span.label.opened{
 	opacity: 1;
 	transform: translateY(0px);
+	text-align: center;
 }
 .progress_inner span.number{
 	float: right;
