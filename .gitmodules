@@ -1,0 +1,7 @@
+[submodule "portfolio/eu-email"]
+    path = portfolio/eu-email
+    url = https://github.com/elvinuchendu/eu-email.git
+
+[submodule "portfolio/frame-email"]
+    path = portfolio/frame-email
+    url = https://github.com/elvinuchendu/frame-email.git
